@@ -1,7 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React, {useState} from 'react'
 import {FaMapMarker} from 'react-icons/fa'
 
 const JobList = (props) => {
+    // eslint-disable-next-line react/prop-types
     const { job } = props;
     const [showFullDescription, setShowFullDescription] = useState(false);
 
